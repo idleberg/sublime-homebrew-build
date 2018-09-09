@@ -1,0 +1,55 @@
+{
+  "cmd": ["brew", "test", "$file_base_name"],
+  "selector": "source.ruby",
+  "working_dir": "${project_path:${folder}}",
+  "windows": {
+    "cmd": ["echo", "This build system is not eligible for Windows"]
+  },
+  "variants": [
+    {
+      "name": "Audit: Strict",
+      "cmd": ["brew", "audit", "--strict", "$file"],
+      "selector": "source.ruby",
+      "working_dir": "${project_path:${folder}}",
+      "windows": {
+        "cmd": ["echo", "This build system is not eligible for Windows"]
+      },
+    },
+    {
+      "name": "Audit: New Formula",
+      "cmd": ["brew", "audit", "--new-formula", "$file"],
+      "selector": "source.ruby",
+      "working_dir": "${project_path:${folder}}",
+      "windows": {
+        "cmd": ["echo", "This build system is not eligible for Windows"]
+      },
+    },
+    {
+      "name": "Install: Build from Source",
+      "cmd": ["brew", "install", "--build-from-source", "$file"],
+      "selector": "source.ruby",
+      "working_dir": "${project_path:${folder}}",
+      "windows": {
+        "cmd": ["echo", "This build system is not eligible for Windows"]
+      },
+    },
+    {
+      "name": "Re-install: Build from Source",
+      "cmd": ["brew", "reinstall", "--build-from-source", "$file"],
+      "selector": "source.ruby",
+      "working_dir": "${project_path:${folder}}",
+      "windows": {
+        "cmd": ["echo", "This build system is not eligible for Windows"]
+      },
+    },
+    {
+      "name": "Uninstall",
+      "cmd": ["brew", "uninstall", "--force", "$file_base_name"],
+      "selector": "source.ruby",
+      "working_dir": "${project_path:${folder}}",
+      "windows": {
+        "cmd": ["echo", "This build system is not eligible for Windows"]
+      },
+    }
+  ]
+}
