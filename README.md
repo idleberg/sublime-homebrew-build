@@ -1,7 +1,7 @@
 # sublime-homebrew-build
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Package Control](https://packagecontrol.herokuapp.com/downloads/Pynsist.svg?style=flat-square)](https://packagecontrol.io/packages/Pynsist)
+[![Package Control](https://packagecontrol.herokuapp.com/downloads/Homebrew%20Build%System.svg?style=flat-square)](https://packagecontrol.io/packages/Homebrew%20Build%System)
 [![GitHub](https://img.shields.io/github/release/idleberg/sublime-homebrew-build.svg?style=flat-square)](https://github.com/idleberg/sublime-homebrew-build/releases)
 
 Build system for [Homebrew](https://brew.sh/) formulas
