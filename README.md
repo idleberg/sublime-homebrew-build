@@ -5,6 +5,7 @@
 [![GitHub](https://img.shields.io/github/release/idleberg/sublime-homebrew-build.svg?style=flat-square)](https://github.com/idleberg/sublime-homebrew-build/releases)
 
 Build system for [Homebrew](https://brew.sh/) formulas. This package is best combined with [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter-contrib-brew).
+
 Features:
 
 - Test (default)
