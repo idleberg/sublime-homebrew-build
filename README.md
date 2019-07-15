@@ -4,8 +4,7 @@
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Homebrew%20Build%20System.svg?style=flat-square)](https://packagecontrol.io/packages/Homebrew%20Build%20System)
 [![GitHub](https://img.shields.io/github/release/idleberg/sublime-homebrew-build.svg?style=flat-square)](https://github.com/idleberg/sublime-homebrew-build/releases)
 
-Build system for [Homebrew](https://brew.sh/) formulas
-
+Build system for [Homebrew](https://brew.sh/) formulas. This package is best combined with [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter-contrib-brew).
 Features:
 
 - Test (default)
